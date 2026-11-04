@@ -1,0 +1,26 @@
+{
+  "name": "arcade-station",
+  "version": "1.0.0",
+  "description": "Master Retro Arcade Station 1984 unifying 5 classic games (Snake, Combat, Space, Breaker, Maze) with real-time procedural Web Audio API chiptune synthesis and CRT dot-matrix filter.",
+  "type": "module",
+  "scripts": {
+    "test": "node test/qa-runner.js",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "arcade",
+    "retro",
+    "pixel-art",
+    "master-hub",
+    "snake",
+    "combat",
+    "space-invaders",
+    "arkanoid",
+    "pacman",
+    "web-audio-api",
+    "chiptune",
+    "game-boy"
+  ],
+  "author": "Jose Luis Pineda (Jlpineda12)",
+  "license": "MIT"
+}
