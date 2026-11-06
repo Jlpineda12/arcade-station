@@ -190,3 +190,6 @@ console.log(`========================================\n`);
 if (failed > 0) {
   process.exit(1);
 }
+
+// Exit explicitly: audio sequencer timers would otherwise keep Node alive
+process.exit(failed > 0 ? 1 : 0);
